@@ -70,7 +70,6 @@ function calcolaCodiceFiscale() {
     const dataNascita = document.getElementById("dataNascita").value;
     const sesso = document.getElementById("sesso").value;
     const luogoNascita = document.getElementById("luogoNascita").value.toUpperCase();
-    const siglaNascita = document.getElementById("siglaNascita").value.toUpperCase();
 
     let codiceFiscale = "";
 
@@ -100,4 +99,5 @@ function calcolaCodiceFiscale() {
     codiceFiscale += getCodiceComune(luogoNascita);
 
     return codiceFiscale;
+
 }
