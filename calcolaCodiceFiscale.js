@@ -59,8 +59,110 @@ function getCodiceComune(luogo) {
         "BOLOGNA": "A944",
         "FIRENZE": "D612",
         "BARI": "A662",
-        "CATANIA": "C351"
+        "CATANIA": "C351",
+    
+        // Aggiunti
+        "PORDENONE": "G888",
+        "UDINE": "L483",
+    
+        // --- GRANDI CITTÀ ---
+        "VENEZIA": "L736",
+        "VERONA": "L781",
+        "MESSINA": "F158",
+        "PADOVA": "G224",
+        "TRIESTE": "L424",
+        "TARANTO": "L049",
+        "BRESCIA": "B157",
+        "PARMA": "G337",
+        "MODENA": "F257",
+        "REGGIO CALABRIA": "H224",
+        "PERUGIA": "G478",
+        "RAVENNA": "H199",
+        "LIVORNO": "E625",
+        "RIMINI": "H294",
+        "SALERNO": "H703",
+        "FOGGIA": "D643",
+        "REGGIO EMILIA": "H223",
+        "PESCARA": "G482",
+        "BERGAMO": "A794",
+        "LATINA": "E472",
+    
+        // --- CITTÀ MEDIE ---
+        "PISA": "G702",
+        "LUCCA": "E715",
+        "AREZZO": "A390",
+        "SIENA": "I726",
+        "TREVISO": "L407",
+        "VICENZA": "L840",
+        "NOVARA": "F952",
+        "ALESSANDRIA": "A182",
+        "ASTI": "A479",
+        "CUNEO": "D205",
+        "LECCE": "E506",
+        "BRINDISI": "B180",
+        "COSENZA": "D086",
+        "CROTONE": "D122",
+        "CAMPOBASSO": "B519",
+        "POTENZA": "G942",
+        "MATERA": "F052",
+        "TERNI": "L117",
+        "ANCONA": "A271",
+        "MACERATA": "E783",
+        "PESARO": "G479",
+        "URBINO": "L497",
+    
+        // --- COMUNI SPARSI ---
+        "ALGHERO": "A192",
+        "SASSARI": "I452",
+        "OLBIA": "G015",
+        "NUORO": "F979",
+        "ORISTANO": "G113",
+    
+        "AOSTA": "A326",
+        "COURMAYEUR": "D012",
+        "SAINT-VINCENT": "H694",
+    
+        "BOLZANO": "A952",
+        "MERANO": "F132",
+        "BRESSANONE": "B160",
+    
+        "TRENTO": "L378",
+        "ROVERETO": "H612",
+    
+        "GORIZIA": "E098",
+    
+        "L'AQUILA": "A345",
+        "CHIETI": "C632",
+    
+        "CATANZARO": "C352",
+        "VIBO VALENTIA": "F537",
+    
+        "TRAPANI": "L331",
+        "AGRIGENTO": "A089",
+        "RAGUSA": "H163",
+        "SIRACUSA": "I754",
+    
+        "CAGLIARI": "B354",
+        "CARBONIA": "B745",
+        "IGLESIAS": "E281",
+    
+        // --- PICCOLI COMUNI ---
+        "ASSISI": "A475",
+        "CORTONA": "D077",
+        "SANREMO": "I138",
+        "TAORMINA": "L042",
+        "POSITANO": "G932",
+        "AMALFI": "A251",
+        "CAPRI": "B696",
+        "CERVIA": "C553",
+        "SAN GIMIGNANO": "H875",
+        "MONTEPULCIANO": "F592",
+        "ALBA": "A124",
+        "PORTOFINO": "G913",
+        "BELLAGIO": "A744",
+        "STRESA": "I976"
     };
+
     return comuni[luogo] || "Z999"; // Restituisce "Z999" se il comune non è trovato
 }
 
@@ -174,5 +276,6 @@ function calcolaCodiceFiscale() {
     return codiceFiscale;
 
 }
+
 
 
