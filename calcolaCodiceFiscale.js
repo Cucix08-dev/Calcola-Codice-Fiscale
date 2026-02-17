@@ -37,11 +37,11 @@ function estraiVocali(stringa) {
     for (let i = 0; i < stringa.length; i++) {
         if ("AEIOU".includes(stringa[i])) {
             vocali += stringa[i];
-            return vocali;
         }
     }
-    return "";
+    return vocali;
 }
+
 
 function getLetteraMese(mese) {
     const lettereMese = ["A", "B", "C", "D", "E", "H", "L", "M", "P", "R", "S", "T"];
@@ -276,6 +276,7 @@ function calcolaCodiceFiscale() {
     return codiceFiscale;
 
 }
+
 
 
 
