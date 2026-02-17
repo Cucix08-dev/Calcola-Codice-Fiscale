@@ -1,3 +1,4 @@
+
 :root{
     --width_form: 650px;
 }
@@ -6,6 +7,8 @@ body {
     font-family: Arial, sans-serif;
     background-color: #002357;
     margin: 0;
+    overflow-y: none;
+    overflow-x: none;
 }
 
 h1 {
@@ -88,7 +91,7 @@ div#sezioneBottone {
     margin: 0 auto;
 }
 
-div#sezioneBottone button {
+div#sezioneBottone input {
     background-color: #1e74f6;
     border: #77adff solid 2px;
     border-radius: 5px;
@@ -100,7 +103,7 @@ div#sezioneBottone button {
     margin: 25px 50px;
 }
 
-div#sezioneBottone button:hover {
+div#sezioneBottone input:hover {
     background-color: #3f8cff;
 }
 
@@ -116,4 +119,31 @@ input#codiceFiscale {
     text-align: center;
     font-size: 1.75rem;
     margin-top: 10px;
+}
+
+
+@media (max-width:675px){
+    :root{
+        --width_form: 300px;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    input#codiceFiscale {
+        font-size: 1rem;
+    }
+
+    div.sezioneInput label {
+        font-size: 1.2rem;
+    }
+
+    div#sezioneBottone input {
+        font-size: 1rem;
+    }
+
+    #contenutoTotale {
+        font-size: 1rem;
+    }
 }
